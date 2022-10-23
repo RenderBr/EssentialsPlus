@@ -1,22 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialsPlus", "EssentialsPlus\EssentialsPlus.csproj", "{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EssentialsPlus", "EssentialsPlus\EssentialsPlus.csproj", "{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Debug|Any CPU.Build.0 = Debug|x86
-		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Release|Any CPU.ActiveCfg = Release|x86
-		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Release|Any CPU.Build.0 = Release|x86
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Debug|x64.ActiveCfg = Debug|x64
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Debug|x64.Build.0 = Debug|x64
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Release|x64.ActiveCfg = Release|x64
+		{F07C5E6C-C0F0-4ABD-8BE1-8A0621BF2BDD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4734E6C-84FA-43BC-BE3C-10D89B681C02}
 	EndGlobalSection
 EndGlobal

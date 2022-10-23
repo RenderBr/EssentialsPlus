@@ -239,7 +239,7 @@ namespace EssentialsPlus
 			}
 		}
 
-		private static System.Timers.Timer FreezeTimer = new System.Timers.Timer(1000);
+		public static System.Timers.Timer FreezeTimer = new System.Timers.Timer(1000);
 
 		public static void FreezeTime(CommandArgs e)
 		{
