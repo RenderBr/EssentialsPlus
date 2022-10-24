@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using EssentialsPlus.Db;
 using EssentialsPlus.Extensions;
-using Mono.Data.Sqlite;
+using Microsoft.Data.Sqlite;
 using MySql.Data.MySqlClient;
 using Terraria;
 using TerrariaApi.Server;
@@ -177,7 +177,7 @@ namespace EssentialsPlus
 			else if (TShock.Config.Settings.StorageType.Equals("sqlite", StringComparison.OrdinalIgnoreCase))
 			{
 				Db = new SqliteConnection(
-					"uri=file://" + Path.Combine(TShock.SavePath, "essentials.sqlite") + ",Version=3");
+					"Data Source=" + Path.Combine(TShock.SavePath, "essentials.sqlite"));
 			}
 			else
 			{
