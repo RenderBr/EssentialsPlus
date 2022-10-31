@@ -1,4 +1,4 @@
-# EssentialsPlus for TShock5, by Average#
+# EssentialsPlus for TShock5, by Average#1305
 
 Essentials+ is a combination of things from Essentials and things from MoreAdminCommands made better. All commands run asynchronously.
 It does not include Sign Commands.
