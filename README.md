@@ -1,6 +1,4 @@
-# EssentialsPlus #
-
-![](https://img.shields.io/badge/Version-1.3.0-blue.svg) ![](https://img.shields.io/badge/API-2.1-green.svg)
+# EssentialsPlus for TShock5, by Average#
 
 Essentials+ is a combination of things from Essentials and things from MoreAdminCommands made better. All commands run asynchronously.
 It does not include Sign Commands.
